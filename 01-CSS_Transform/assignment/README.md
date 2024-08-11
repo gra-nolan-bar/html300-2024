@@ -20,6 +20,7 @@ Find (at least) __one__ example of transition-based animation that you want to i
 - CSS Animation(s) present is based on transitioning properties, should look smooth
 - Use of Sass features (at least 1 mixin and variables)
 - Provided inspiration source/source code
+-   https://css-tricks.com/almanac/properties/t/transition/
 - Use of comments in HTML/CSS
 
 ### BONUS
