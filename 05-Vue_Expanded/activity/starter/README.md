@@ -10,8 +10,10 @@ We will build out a Post component to loop through some data and print out Posts
 
 ### Install the NPM packages and run the dev environment:
 
-- `CD` in to the `lesson-activity` directorty and run `npm i` to get all of the dependencies
-- run `npm run dev` to start the development server
+- Create a new vue project named 'lesson-activity'
+- CD in to the project and run 'npm install'.
+- Make sure your packages installed successfully, flag if you need assistance.
+- Now run 'npm run dev' in your terminal to launch the dev server.
 - Begin editing files within the `src` directory of the project
 
 ### Build a blog home page:

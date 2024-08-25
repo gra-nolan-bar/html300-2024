@@ -3,21 +3,18 @@
 We will be using Nuxt and Axios to pull from an API and populate a page with Card components using dynamic data.
 
 ### Vue References
-- [Yarn](https://yarnpkg.com/lang/en/docs/install/)
+
 - [Nuxt](https://nuxtjs.org/guide/installation)
-- [Axios](https://github.com/axios/axios)
-- [Axios & Vue](https://vuejs.org/v2/cookbook/using-axios-to-consume-apis.html)
-- [Vue Docs](https://vuejs.org/v2/guide/)
-- [Vue DevTools - Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)
-- [Vue DevTools - Firefox](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+- [Vue Docs](https://vuejs.org/guide)
 
 ### To get started:
--	 Watch the video on Nuxt to learn more about the framework, but for this activity you'll only need to work in two files.
--	 Verify `yarn` is installed by running `yarn -v` in your terminal to see if a version comes back
--	 Run `yarn` to install, verify packages installed successfully
--	 Run `yarn dev` to launch the local server
--	 Use Axios to fetch data from the [restcountries.eu](https://restcountries.eu/#api-endpoints-region) endpoint
--	 Americas was used in the video, try Europe `https://restcountries.eu/rest/v2/region/europe`
--	 Create a Card component that includes the country's flag with alt/src, a heading with the country's name, and a p with the subregion.
--	 Import the Card into your `pages/index.vue` file and create a v-for loop to print each country  
 
+- Use fetch to get data from the [restcountries.com](https://restcountries.com/#endpoints-region) endpoint
+- Create a page for 'Africa' and a page for 'America'​
+- For each page, use fetch() to retrieve data about countries using the REST Countries API.
+- Create a Card component that includes the country's flag with alt/src, a heading with the country's name, and a p with the subregion.
+- Import the Card into your pages files and create a v-for loop to print each country.
+
+(https://restcountries.com/v3.1/region/Africa)​
+
+(https://restcountries.com/v3.1/region/America)​

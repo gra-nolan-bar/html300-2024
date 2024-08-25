@@ -1,4 +1,4 @@
-# Assignment 10 - SEO
+# Assignment 7 - SEO
 
 The main focus of the final lesson will be completing the course project. As a supplement, you'll learn about SEO best practices, write a proposal in your course project repo's `documents` folder as to your ideal SEO implementation, and configure the SEO on your global `nuxt.config.js` and Nuxt pages using the `head` method in your page's `<script>`.
 

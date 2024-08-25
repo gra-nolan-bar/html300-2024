@@ -28,8 +28,8 @@ These pages can be copied over to your final project later, so create them using
 ### To get started:
 
 -     Fetch from the upstream master and merge with your local master as we start each lesson
-- In your forked repo, create a new branch off of master called `lesson-06` or similar
-- Navigate to the root folder of this assignment within terminal in your fork, `lesson06/assignment`
+- In your forked repo, create a new branch off of master called `lesson3` or similar
+- Navigate to the root folder of this assignment within terminal in your fork, `03-Bootstrap/assignment`
 - Run `npm install`
 - Run `npx gulp`
 - Start working with the files, browsersync will watch your SCSS/HTML files and reload on changes

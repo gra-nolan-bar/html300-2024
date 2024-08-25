@@ -1,6 +1,6 @@
-# Activity 10 - SEO
+# Activity 7 - SEO
 
-The main focus of the final week will be working on completing assignment09/the course project. As a supplement, you'll learn about SEO best practices, write a proposal in your course project repo's `documents` folder as to your ideal SEO implementation, and configure the SEO. To get best informed, take a look at the following resources to learn more about SEO implementation and general guidelines. 
+The main focus of the final week will be working on completing the course project. As a supplement, you'll learn about SEO best practices, write a proposal in your course project repo's `documents` folder as to your ideal SEO implementation, and configure the SEO. To get best informed, take a look at the following resources to learn more about SEO implementation and general guidelines. 
 
 ### Vue References
 - [Moz](https://moz.com/learn/seo)
