@@ -1,0 +1,37 @@
+// Variables for colors and timing
+$primary-color: #3498db;  // Initial button color
+$hover-color: #1c9c3a;    // Green color on hover
+$transition-duration: .5s; // Duration of the transition
+$border-radius: 5px;      // Border radius for the button
+
+// Mixin for smooth transitions
+@mixin smooth-transition($properties...) {
+  $transitions: ();
+
+  @each $property in $properties {
+    $transitions: append($transitions, #{$property} #{$transition-duration} ease-in-out, comma);
+  }
+
+  // Apply the transition properties
+  transition: $transitions;
+}
+
+// Basic button styling
+.animated-button {
+  padding: 15px 25px;
+  margin: 30px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: $border-radius;
+  font-size: 20px;
+
+  // Apply the mixin for transition with multiple properties
+  @include smooth-transition(background-color, transform);
+
+  // Hover state with animation
+  &:hover {
+    background-color: $hover-color;
+    transform: scale(1.1);
+  }
+}
