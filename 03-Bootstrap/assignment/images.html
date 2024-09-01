@@ -9,7 +9,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     >
-    <title>Landing Page</title>
+    <title>Images Page</title>
   </head>
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-success sticky-top">
@@ -50,24 +50,22 @@
       </div>
     </nav>
     <main class="container mt-4 flex-grow-1">
-      <h1>Welcome to the Dinosaur Page</h1>
-      <!-- tooltip in first paragraph -->
-      <p>
-        Dinosaurs are a diverse group of reptiles that dominated the Earth
-        during the Mesozoic Era, living for over 180 million years. They ranged
-        from small, bird-like creatures to massive giants like the
-        <span
-          data-bs-toggle="tooltip"
-          title="Tyrannosaurus rex, often known as T. rex, was a large carnivorous dinosaur."
-          >Tyrannosaurus rex</span
-        >, a fearsome predator.
-      </p>
-      <p>
-        The age of dinosaurs began in the Triassic Period and ended in the
-        Cretaceous Period, when a mass extinction event led to their demise.
-        Scientists study fossils to understand how these creatures lived and
-        evolved over millions of years.
-      </p>
+      <h1>Images Page</h1>
+      <img
+        src="images/dinosaur-t-rex-1280.jpg"
+        class="img-fluid mt-2 mb-2"
+        alt="T-Rex dinosaur in a forest"
+      >
+      <img
+        src="images/dinosaur-pterosaur-masosaur-1280.png"
+        class="img-fluid mt-2 mb-2"
+        alt="Pterosaur flying over the ocean with a masosaur attacking from the water"
+      >
+      <img
+        src="images/dinosaur-mosasaurus.jpg"
+        class="img-fluid mt-2 mb-2"
+        alt="Masosaurus swimming underwater"
+      >
     </main>
     <footer class="bg-success text-white mt-5">
       <div class="container py-3 d-flex justify-content-between align-items-center">
@@ -80,14 +78,5 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script>
-      // Initialize tooltips
-      var tooltipTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="tooltip"]')
-      );
-      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-      });
-    </script>
   </body>
 </html>
