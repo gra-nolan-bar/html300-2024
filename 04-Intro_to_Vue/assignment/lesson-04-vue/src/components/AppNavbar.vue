@@ -12,18 +12,13 @@
       </b-navbar-brand>
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="mr-3">
-          <b-nav-item to="/" class="text-white">Home</b-nav-item>
-          <b-nav-item to="/images" class="text-white">Images</b-nav-item>
-          <b-nav-item to="/accordion" class="text-white">Age of Dinosaurs</b-nav-item>
-          <b-nav-item to="/grid" class="text-white">Species of Dinosaur</b-nav-item>
-        </b-navbar-nav>
+        <slot></slot>
       </b-collapse>
     </b-navbar>
   </template>
   
   <script>
-  import { BNavbar, BNavbarBrand, BNavbarToggle, BNavbarNav, BNavItem, BCollapse } from 'bootstrap-vue';
+  import { BNavbar, BNavbarBrand, BNavbarToggle, BCollapse } from 'bootstrap-vue';
   
   export default {
     name: 'AppNavbar',
@@ -31,8 +26,6 @@
       BNavbar,
       BNavbarBrand,
       BNavbarToggle,
-      BNavbarNav,
-      BNavItem,
       BCollapse
     }
   }
@@ -40,8 +33,8 @@
   
   <style scoped>
   /* This makes sure the navbar items are white text */
-  .nav-link {
+  /* .nav-link {
     color: white !important;
-  }
+  } */
   </style>
   
