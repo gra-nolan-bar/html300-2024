@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      hasBorder: false, // State to track if the image has a border
+      hasBorder: false, // track if the image has a border
     };
   },
   methods: {
@@ -47,7 +47,9 @@ export default {
 <style scoped>
 /* CSS class for the border */
 .bordered {
-  border: 2px solid #007bff; /* Bootstrap primary blue */
-  padding: 10px;
+  border: 5px solid black; /* Bootstrap primary blue */
+  border-radius: 1%;
+  box-shadow: -20px 20px 30px;
+  padding: 5px;
 }
 </style>

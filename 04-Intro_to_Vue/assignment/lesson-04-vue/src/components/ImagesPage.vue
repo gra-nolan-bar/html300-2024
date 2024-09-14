@@ -24,26 +24,29 @@ import ImageComponent from '@/components/ImageComponent.vue';
 
 export default {
   name: 'ImagesPage',
+  components: {
+    ImageComponent, // Register the component
+  },
   data() {
     return {
       // Array of images with their source and alt text
       images: [
         {
           src: require('../assets/dinosaur-t-rex-1280.jpg'),
-          alt: 'T-Rex dinosaur in a forest'
+          alt: 'T-Rex dinosaur in a forest',
         },
         {
           src: require('../assets/dinosaur-pterosaur-masosaur-1280.png'),
-          alt: 'Pterosaur flying over the ocean with a masosaur attacking from the water'
+          alt: 'Pterosaur flying over the ocean with a masosaur attacking from the water',
         },
         {
           src: require('../assets/dinosaur-mosasaurus.jpg'),
-          alt: 'Masosaurus swimming underwater'
-        }
-      ]
+          alt: 'Masosaurus swimming underwater',
+        },
+      ],
     };
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
